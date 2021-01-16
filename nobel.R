@@ -1,6 +1,6 @@
 #set work directory
 getwd()
-setwd("C:\\нд╣╣\\ндуб\\nobel prize")
+setwd("C:\\ц▌ц└б╣б╣\\ц▌ц└ц∙ц┌\\nobel prize")
 getwd()
 nobel <- read.csv("nobel price.csv")
 
@@ -127,7 +127,7 @@ ggplot(data = p6) + geom_point(aes(year, log(cumsum2),
                                    color = B.Continent)) + 
   scale_x_discrete(breaks = seq(1901, 2020, 10)) +
   labs(x = "Year", y = "log(cumulative sum) of Continent", 
-       title = "Cumulative Sum of Nobel Laureates by Continent over Time")
+       title = "Nobel Laureates by Continent over Time")
 
   
 
