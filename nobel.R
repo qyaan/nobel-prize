@@ -1,6 +1,6 @@
 #set work directory
 getwd()
-setwd("C:\\нд╣╣\\ндуб\\nobel prize")
+setwd("C:\\ц▌ц└б╣б╣\\ц▌ц└ц∙ц┌\\nobel prize")
 getwd()
 nobel <- read.csv("nobel price.csv")
 
@@ -12,7 +12,6 @@ suppressWarnings(suppressMessages(library("ggplot2")))
 install.packages("dplyr")
 library(dplyr)
 
-?mutate()
 
 #check the data
 summary(nobel)
